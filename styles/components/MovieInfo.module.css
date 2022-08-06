@@ -1,0 +1,115 @@
+.wrapper {
+  display: flex;
+  height: 100%;
+  width: 1100px;
+}
+
+.info {
+  height: 100%;
+  width: 1100px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.infoText {
+  flex: 1;
+}
+
+.cover {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.movieTitle {
+  font-family: Archivo;
+  font-weight: 800;
+  color: white;
+  font-size: 44px;
+}
+
+.movieDate {
+  font-weight: 200;
+}
+
+.imgCover {
+  height: 654px;
+  width: 436px;
+  background-size: contain;
+  border-radius: 10px;
+  box-shadow: 0px 0px 15px -3px rgba(0, 0, 0, 0.1);
+  margin-right: 20px;
+}
+
+.genres {
+  margin-top: 40px;
+  color: white;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: Archivo;
+}
+
+.addInfo {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.duration {
+  color: white;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: Archivo;
+}
+
+.buttons {
+  margin-top: 10px;
+  display: flex;
+  gap: 15px;
+}
+
+.synopsis {
+  margin-top: 120px;
+  color: white;
+  margin-right: 80px;
+  font-family: Archivo;
+}
+
+.synopsisTitle {
+  font-size: 16px;
+  font-weight: 600;
+  margin: 0;
+}
+
+.synopsisText {
+  margin: 0;
+  margin-top: 10px;
+  line-height: 1.4;
+  font-size: 16px;
+  font-weight: 200;
+}
+
+.credits {
+  margin-top: 80px;
+  font-family: Archivo;
+  font-size: 16px;
+}
+
+.creditsRow {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.creditItem {
+  flex: 1;
+  color: white;
+}
+
+.creditJob {
+  font-weight: 600;
+}
+
+.creditName {
+  font-weight: 300;
+}

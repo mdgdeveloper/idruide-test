@@ -1,0 +1,33 @@
+.wrapper {
+  margin-top: 30px;
+}
+.cover {
+  width: 140px;
+  height: 200px;
+  background-color: #fff;
+  background-size: contain;
+  border-radius: 5px;
+}
+
+.movieTitle {
+  font-family: Inter;
+  font-weight: 400;
+  font-size: 16px;
+  color: white;
+  margin-top: 5px;
+  overflow-wrap: break-word;
+  inline-size: 150px;
+}
+
+.movieTime {
+  font-family: Archivo;
+  font-weight: 400;
+  font-size: 14px;
+  color: #9b9b9b;
+  margin-top: 2px;
+}
+
+.rating {
+  margin-top: 5px;
+  width: 140px;
+}

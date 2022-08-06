@@ -1,0 +1,16 @@
+.wrapper {
+  width: 1100px;
+  margin-top: 50px;
+}
+
+.videoList {
+  display: flex;
+  gap: 20px;
+}
+.title {
+  font-family: Inter;
+  font-weight: 400;
+  font-size: 18px;
+  color: white;
+  margin-bottom: 20px;
+}
