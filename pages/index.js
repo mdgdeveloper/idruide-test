@@ -15,8 +15,6 @@ export default function Home() {
   const [topData, setTopData] = useState();
   const [search, setSearch] = useState("");
 
-  console.log("search", search);
-
   useEffect(() => {
     const getData = async () => {
       try {

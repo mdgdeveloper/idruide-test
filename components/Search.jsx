@@ -29,7 +29,6 @@ const Search = ({ search, setSearch }) => {
     getSearch(search);
   }, [search]);
 
-  console.log("search results:", searchValues);
   return (
     <div>
       <div className={styles.wrapper}>
